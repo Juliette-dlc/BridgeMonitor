@@ -9,28 +9,15 @@ using Newtonsoft.Json;
 
 namespace BridgeMonitory.Controllers
 {
-    public class BridgeController
+    public class BridgeController : Controller
     {
-        public class StationController : Controller
+
+        public IActionResult ProchaineFermeture()
         {
-            private const string _cookieKey = "stations";
-
-            public IActionResult BoatName()
-            {
-                var stations = GetHoraireFromAPI();
-
-
-
-                return View(stations);
-            }
-
-            public IActionResult ClosingType()
-            {
-                var stations = GetHoraireFromAPI();
-                return View(stations);
-            }
-
-            private static List<HoraireList> GetHoraireFromAPI()
+            var boats = GetHoraireFromAPI();
+            return View(boats);
+        }
+        private static List<HoraireList> GetHoraireFromAPI()
         {
             //Création un HttpClient (= outil qui va permettre d'interroger une URl via une requête HTTP)
             using (var client = new HttpClient())
@@ -43,8 +30,6 @@ namespace BridgeMonitory.Controllers
                 //d'un flux de données vers des objets => Déserialisation
                 //d'objets vers un flux de données => Sérialisation
                 var result = JsonConvert.DeserializeObject<List<HoraireList>>(stringResult.Result);
-                
-                //var result = JsonConvert.DeserializeObject<List<HoraireList>>(stringResult.Result);
                 return result;
             }
         }
