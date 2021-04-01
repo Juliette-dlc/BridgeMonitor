@@ -35,3 +35,5 @@ C:\Users\Juliettedlc\Documents\Ynov\c\BridgeMonitor\BridgeMonitory\BridgeMonitor
 C:\Users\Juliettedlc\Documents\Ynov\c\BridgeMonitor\BridgeMonitory\BridgeMonitory\obj\Debug\netcoreapp3.1\BridgeMonitory.pdb
 C:\Users\Juliettedlc\Documents\Ynov\c\BridgeMonitor\BridgeMonitory\BridgeMonitory\obj\Debug\netcoreapp3.1\BridgeMonitory.genruntimeconfig.cache
 C:\Users\Juliettedlc\Documents\Ynov\c\BridgeMonitor\BridgeMonitory\BridgeMonitory\obj\Debug\netcoreapp3.1\BridgeMonitory.csproj.CopyComplete
+C:\Users\Juliettedlc\Documents\Ynov\c\BridgeMonitor\BridgeMonitory\BridgeMonitory\obj\Debug\netcoreapp3.1\Razor\Views\Home\ProchaineFermeture.cshtml.g.cs
+C:\Users\Juliettedlc\Documents\Ynov\c\BridgeMonitor\BridgeMonitory\BridgeMonitory\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

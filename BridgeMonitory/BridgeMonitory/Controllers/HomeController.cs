@@ -27,6 +27,10 @@ namespace BridgeMonitory.Controllers
         {
             return View();
         }
+        public IActionResult ProchaineFermeture()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

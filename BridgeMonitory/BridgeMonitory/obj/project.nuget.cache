@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+Fex4hcQWAD25UAQGJGgLto7OlhDEfUC6xNr4fwLqw7kvRrEgavhS+Z36Mr5V6ni+PDNVljGZ4ElfqmDzvWi5w==",
+  "dgSpecHash": "7+dsqpqzOFZRMfY8D1U4ds8M0Dt+Mow7oc9DFW+4asjQGPSbagbyfYpDBDUwE5krz5HWb8/Fc8cvrNYQu0Lifw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Juliettedlc\\Documents\\Ynov\\c\\BridgeMonitor\\BridgeMonitory\\BridgeMonitory\\BridgeMonitory.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Juliettedlc\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
